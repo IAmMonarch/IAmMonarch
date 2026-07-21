@@ -1,0 +1,51 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tlBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101010"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </linearGradient>
+    <linearGradient id="tlSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#D4AF37" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#tlBg)"/>
+
+  <text x="600" y="86" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#8A8A8A" letter-spacing="5">TIMELINE</text>
+
+  <line x1="130" y1="190" x2="1070" y2="190" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1"/>
+  <rect x="130" y="188" width="120" height="4" fill="url(#tlSheen)">
+    <animate attributeName="x" values="130;830;130" dur="16s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+    <g transform="translate(190,190)">
+      <circle r="3.5" fill="#0A0A0A" stroke="#D4AF37" stroke-width="1.4"/>
+      <text y="-26" text-anchor="middle" font-size="12" fill="#8A8A8A" letter-spacing="2">EARLY</text>
+      <text y="42" text-anchor="middle" font-size="15" font-weight="400" fill="#F5F5F5">First lines of code</text>
+      <text y="64" text-anchor="middle" font-size="12.5" fill="#8A8A8A">Curiosity became obsession</text>
+    </g>
+
+    <g transform="translate(463,190)">
+      <circle r="3.5" fill="#0A0A0A" stroke="#D4AF37" stroke-width="1.4"/>
+      <text y="-26" text-anchor="middle" font-size="12" fill="#8A8A8A" letter-spacing="2">DEPTH</text>
+      <text y="42" text-anchor="middle" font-size="15" font-weight="400" fill="#F5F5F5">Systems, from scratch</text>
+      <text y="64" text-anchor="middle" font-size="12.5" fill="#8A8A8A">Sockets, memory, processes</text>
+    </g>
+
+    <g transform="translate(736,190)">
+      <circle r="3.5" fill="#0A0A0A" stroke="#D4AF37" stroke-width="1.4"/>
+      <text y="-26" text-anchor="middle" font-size="12" fill="#8A8A8A" letter-spacing="2">SCALE</text>
+      <text y="42" text-anchor="middle" font-size="15" font-weight="400" fill="#F5F5F5">Migranium</text>
+      <text y="64" text-anchor="middle" font-size="12.5" fill="#8A8A8A">Healthcare software, in production</text>
+    </g>
+
+    <g transform="translate(1010,190)">
+      <circle r="4.5" fill="#D4AF37"/>
+      <text y="-26" text-anchor="middle" font-size="12" fill="#D4AF37" letter-spacing="2">NOW</text>
+      <text y="42" text-anchor="middle" font-size="15" font-weight="500" fill="#F5F5F5">Founder, Edgai</text>
+      <text y="64" text-anchor="middle" font-size="12.5" fill="#8A8A8A">Building for a continent</text>
+    </g>
+  </g>
+</svg>

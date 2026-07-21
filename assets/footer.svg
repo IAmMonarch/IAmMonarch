@@ -1,0 +1,27 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="footGlow" cx="50%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#151107"/>
+      <stop offset="60%" stop-color="#0D0D0D"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="380" fill="url(#footGlow)"/>
+
+  <g transform="translate(600,84)" stroke="#D4AF37" stroke-width="1" fill="none" opacity="0.85">
+    <circle r="13" opacity="0.5"/>
+    <path d="M -5,6 L 0,-7 L 5,6" stroke-width="1"/>
+  </g>
+
+  <text x="600" y="176" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="42" font-weight="300" fill="#F5F5F5" letter-spacing="-0.5">
+    Let's build something worth remembering.
+  </text>
+
+  <text x="600" y="222" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" fill="#8A8A8A">
+    Open to conversations about education, systems, and Africa's next decade of builders.
+  </text>
+
+  <line x1="500" y1="270" x2="700" y2="270" stroke="#D4AF37" stroke-opacity="0.35" stroke-width="1"/>
+
+  <text x="600" y="340" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#5f5f5f" letter-spacing="2">DAVID OKOCHA &#8201;&#183;&#8201; LAGOS, NIGERIA</text>
+</svg>

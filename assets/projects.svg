@@ -1,0 +1,74 @@
+<svg width="1200" height="640" viewBox="0 0 1200 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="projBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="640" fill="url(#projBg)"/>
+
+  <text x="600" y="90" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#8A8A8A" letter-spacing="5">SELECTED PROJECTS</text>
+  <text x="600" y="132" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" font-weight="300" fill="#F5F5F5" letter-spacing="-0.3">Software built from first principles</text>
+  <line x1="560" y1="154" x2="640" y2="154" stroke="#D4AF37" stroke-opacity="0.5" stroke-width="1"/>
+
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+
+    <!-- card 1 : HTTP Server -->
+    <g transform="translate(80,200)">
+      <rect width="520" height="180" rx="10" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+      <g transform="translate(36,34)" stroke="#D4AF37" stroke-width="1.3" fill="none">
+        <rect x="0" y="0" width="26" height="7" rx="2"/>
+        <rect x="0" y="10.5" width="26" height="7" rx="2"/>
+        <rect x="0" y="21" width="26" height="7" rx="2"/>
+        <circle cx="4" cy="3.5" r="0.9" fill="#D4AF37" stroke="none"/>
+      </g>
+      <text x="36" y="98" font-size="20" font-weight="400" fill="#F5F5F5">HTTP Server</text>
+      <text x="36" y="124" font-size="13.5" fill="#8A8A8A">A multi-threaded HTTP server built</text>
+      <text x="36" y="144" font-size="13.5" fill="#8A8A8A">directly on raw sockets.</text>
+      <text x="36" y="166" font-size="11" fill="#5f5f5f" letter-spacing="1.5">C &#183; POSIX SOCKETS</text>
+    </g>
+
+    <!-- card 2 : Unix Shell -->
+    <g transform="translate(600,200)">
+      <rect width="520" height="180" rx="10" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+      <g transform="translate(36,30)" stroke="#D4AF37" stroke-width="1.3" fill="none">
+        <rect x="0" y="0" width="28" height="20" rx="3"/>
+        <path d="M5,7 L9,10 L5,13"/>
+        <line x1="12" y1="13" x2="20" y2="13"/>
+      </g>
+      <text x="36" y="98" font-size="20" font-weight="400" fill="#F5F5F5">Unix Shell</text>
+      <text x="36" y="124" font-size="13.5" fill="#8A8A8A">A POSIX-style shell with job control</text>
+      <text x="36" y="144" font-size="13.5" fill="#8A8A8A">and pipelines, from scratch.</text>
+      <text x="36" y="166" font-size="11" fill="#5f5f5f" letter-spacing="1.5">C &#183; PROCESS CONTROL</text>
+    </g>
+
+    <!-- card 3 : Memory Allocator -->
+    <g transform="translate(80,420)">
+      <rect width="520" height="180" rx="10" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+      <g transform="translate(36,32)" stroke="#D4AF37" stroke-width="1.3" fill="none">
+        <rect x="0" y="0" width="8" height="8"/>
+        <rect x="11" y="0" width="8" height="8" fill="#D4AF37" fill-opacity="0.35"/>
+        <rect x="22" y="0" width="8" height="8"/>
+        <rect x="0" y="11" width="8" height="8" fill="#D4AF37" fill-opacity="0.35"/>
+        <rect x="11" y="11" width="8" height="8"/>
+        <rect x="22" y="11" width="8" height="8" fill="#D4AF37" fill-opacity="0.35"/>
+      </g>
+      <text x="36" y="98" font-size="20" font-weight="400" fill="#F5F5F5">Memory Allocator</text>
+      <text x="36" y="124" font-size="13.5" fill="#8A8A8A">A custom malloc / free implementation</text>
+      <text x="36" y="144" font-size="13.5" fill="#8A8A8A">exploring heap management.</text>
+      <text x="36" y="166" font-size="11" fill="#5f5f5f" letter-spacing="1.5">C &#183; MEMORY MANAGEMENT</text>
+    </g>
+
+    <!-- card 4 : TCP Chat -->
+    <g transform="translate(600,420)">
+      <rect width="520" height="180" rx="10" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+      <g transform="translate(36,30)" stroke="#D4AF37" stroke-width="1.3" fill="none">
+        <path d="M0,0 h18 a3,3 0 0 1 3,3 v9 a3,3 0 0 1 -3,3 h-9 l-5,5 v-5 h-4 a3,3 0 0 1 -3,-3 v-9 a3,3 0 0 1 3,-3 z"/>
+      </g>
+      <text x="36" y="98" font-size="20" font-weight="400" fill="#F5F5F5">TCP Chat</text>
+      <text x="36" y="124" font-size="13.5" fill="#8A8A8A">A real-time chat system built on raw</text>
+      <text x="36" y="144" font-size="13.5" fill="#8A8A8A">TCP sockets.</text>
+      <text x="36" y="166" font-size="11" fill="#5f5f5f" letter-spacing="1.5">C &#183; NETWORKING</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+name: Render Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate gold/black contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake.svg?color_snake=%23D4AF37&color_dots=%230D0D0D,%232a2410,%23806718,%23a8891f,%23D4AF37
+            assets/snake-dark.svg?palette=github-dark&color_snake=%23D4AF37
+
+      - name: Push generated snake
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update contribution snake [skip ci]"
+          file_pattern: assets/snake*.svg

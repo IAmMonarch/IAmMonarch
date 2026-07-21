@@ -1,0 +1,47 @@
+<svg width="1200" height="440" viewBox="0 0 1200 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="workBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101010"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="440" fill="url(#workBg)"/>
+
+  <text x="600" y="90" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#8A8A8A" letter-spacing="5">SELECTED WORK</text>
+  <line x1="560" y1="112" x2="640" y2="112" stroke="#D4AF37" stroke-opacity="0.5" stroke-width="1"/>
+
+  <line x1="420" y1="170" x2="420" y2="380" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+  <line x1="780" y1="170" x2="780" y2="380" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+    <!-- column 1 -->
+    <g transform="translate(60,190)">
+      <text font-size="13" fill="#D4AF37" letter-spacing="2">01</text>
+      <text y="46" font-size="26" font-weight="400" fill="#F5F5F5" letter-spacing="-0.3">Migranium</text>
+      <text y="76" font-size="13" fill="#8A8A8A" letter-spacing="1.5">FULL STACK ENGINEER</text>
+      <text y="114" font-size="14.5" fill="#B5B5B5">AI-powered healthcare</text>
+      <text y="136" font-size="14.5" fill="#B5B5B5">software, built for real</text>
+      <text y="158" font-size="14.5" fill="#B5B5B5">clinical workflows.</text>
+    </g>
+
+    <!-- column 2 -->
+    <g transform="translate(460,190)">
+      <text font-size="13" fill="#D4AF37" letter-spacing="2">02</text>
+      <text y="46" font-size="26" font-weight="400" fill="#F5F5F5" letter-spacing="-0.3">Systems</text>
+      <text y="76" font-size="13" fill="#8A8A8A" letter-spacing="1.5">FIRST PRINCIPLES</text>
+      <text y="114" font-size="14.5" fill="#B5B5B5">HTTP servers, shells,</text>
+      <text y="136" font-size="14.5" fill="#B5B5B5">allocators and networking</text>
+      <text y="158" font-size="14.5" fill="#B5B5B5">software, built from raw sockets up.</text>
+    </g>
+
+    <!-- column 3 -->
+    <g transform="translate(860,190)">
+      <text font-size="13" fill="#D4AF37" letter-spacing="2">03</text>
+      <text y="46" font-size="26" font-weight="400" fill="#F5F5F5" letter-spacing="-0.3">Open Source</text>
+      <text y="76" font-size="13" fill="#8A8A8A" letter-spacing="1.5">IN PUBLIC</text>
+      <text y="114" font-size="14.5" fill="#B5B5B5">Selected work, published</text>
+      <text y="136" font-size="14.5" fill="#B5B5B5">and maintained in the</text>
+      <text y="158" font-size="14.5" fill="#B5B5B5">open on GitHub.</text>
+    </g>
+  </g>
+</svg>
